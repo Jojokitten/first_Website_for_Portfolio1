@@ -1,0 +1,43 @@
+
+.no {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .yes {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .maybe {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .submit {
+    margin: 20px 0;
+    background-color: #ff6373; /* Hex-Code korrigiert */
+    color: white; /* Schriftfarbe für bessere Sichtbarkeit */
+    border: none; /* Entfernt die Standardrahmen */
+    border-radius: 5px; /* Abgerundete Ecken */
+    cursor: pointer; /* Zeigt eine Hand an */
+    transition: background-color 0.3s; /* Weicher Farbwechsel */
+  }
+  
+  .submit:hover {
+    background-color: #ff1493; /* Neue Farbe beim Hover */
+  }
+  
+  .title {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 2rem;
+    color: #ff6373;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background: linear-gradient(45deg, #ff6347, #ff1493);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
